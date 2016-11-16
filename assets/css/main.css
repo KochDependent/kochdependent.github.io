@@ -9,6 +9,9 @@
 
 /* Reset */
 
+a.image.featured{
+    height: 20px;
+}
 a.icon.fa{
     color:#d27587;
     padding-bottom: 10px;
@@ -21,7 +24,7 @@ a.icon.fa:hover{
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font-family: 'Parisienne', cursive;
+		font-family:'Parisienne', cursive;
 		vertical-align: baseline;
 	}
     .wrapper.style4 h2{
@@ -1585,6 +1588,8 @@ a.icon.fa:hover{
 		text-align: center;
 	}
 
+   
+
 /* Icons */
 
 	.icon {
@@ -1633,9 +1638,17 @@ a.icon.fa:hover{
             /*background-image: url('images/florals.png');*/
             background-size: cover;
             background-position: top;
-            background-image: url('images/cover2.jpg');
             background-color: #fff;
+            
         }
+        .first{
+            background-image: url('images/cover2.jpg');
+            opacity:0.7;
+        }
+        .first:hover {
+        opacity: 1.0;
+         filter: alpha(opacity=100); 
+}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
@@ -1675,7 +1688,7 @@ a.icon.fa:hover{
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #252525;
+					background: #e8ccd1;
 				}
 
 /* Nav */
@@ -1855,6 +1868,8 @@ a.icon.fa:hover{
 					top: 2em;
 					margin: -4em 0 4em -4em;
 					width: auto;
+                    height: auto;
+                    max-width: 100%;
 				}
 
 		/* Wrappers */
@@ -2025,7 +2040,7 @@ a.icon.fa:hover{
 			hr {
 				margin: 1.5em 0 2em 0;
 			}
-
+            
 		/* Section/Article */
 
 			section, article {
