@@ -9,6 +9,12 @@
 
 /* Reset */
 
+.couple-images{
+    border-radius:30px;
+    padding-bottom:20px;
+}
+
+
 a.image.featured{
     height: 20px;
 }
@@ -1642,14 +1648,10 @@ a.icon.fa:hover{
             
         }
         .first{
-            background-image: url('images/cover2.jpg');
+            background-image: url('images/cover2.jpg'),0.7;
             opacity:0.7;
         }
-        .first:hover {
-        opacity: 1.0;
-         filter: alpha(opacity=100); 
-}
-
+       
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
