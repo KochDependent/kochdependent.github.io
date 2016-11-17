@@ -12,6 +12,8 @@
 .couple-images{
     border-radius:30px;
     padding-bottom:20px;
+    height:70%;
+    width:70%;
 }
 
 
@@ -1648,7 +1650,7 @@ a.icon.fa:hover{
             
         }
         .first{
-            background-image: url('images/cover2.jpg'),0.7;
+            background-image: url('images/cover2.jpg');
             opacity:0.7;
         }
        
