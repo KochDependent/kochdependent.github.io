@@ -8,6 +8,17 @@
 */
 
 /* Reset */
+.icecream-link{
+    color: #d27587;
+    font-weight:bold;
+    text-decoration:none !important;
+
+}
+
+.icecream-link:hover{
+    color:#e8ccd1;
+}
+
 .thumb{
     margin-bottom:30px;
     
