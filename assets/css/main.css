@@ -8,9 +8,17 @@
 */
 
 /* Reset */
+.thumb{
+    margin-bottom:30px;
+    
+}
+
+.gallery-images{
+    border-radius:25px;
+}
 
 .couple-images{
-    border-radius:30px;
+    border-radius:25px;
     padding-bottom:20px;
     height:70%;
     width:70%;
