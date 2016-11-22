@@ -24,6 +24,18 @@
     
 }
 
+@media screen and (max-width: 40em){
+    span.head{
+        display: block;
+    }
+}
+
+/*@media screen and (max-width: 40em){
+    div span:nth-of-type(2){
+        display: block;
+    }
+}*/
+
 /*.gallery-images{
     border-radius:25px;
 }*/
@@ -54,6 +66,7 @@ a.icon.fa:hover{
 		font-family:'Parisienne', cursive;
 		vertical-align: baseline;
 	}
+
     .wrapper.style4 h2{
         margin: 0;
 		padding: 0;
