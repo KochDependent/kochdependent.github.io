@@ -35,9 +35,25 @@
     }
 }*/
 
-/*.gallery-images{
-    border-radius:25px;
-}*/
+.gallery-images{
+    position: relative;
+  top: 0;
+  left: 0;
+}
+.gallery-images2{
+    position: absolute;
+  top: 70%;
+  left: 90%;
+  height:38%;
+  transform:rotate(30deg);
+}
+.gallery-images3{
+    position: absolute;
+  top: 72%;
+  left: -12%;
+  height:38%;
+  transform:rotate(-30deg) scaleX(-1);
+}
 
 .couple-images {
     border-radius: 25px;
@@ -2088,6 +2104,25 @@ ol.default {
     opacity: 0.7;
     background-position-y: 60px !important;
     background-position-x: -220px !important;
+}
+        .gallery-images{
+    position: relative;
+  top: 0;
+  left: 0;
+}
+.gallery-images2{
+    position: absolute;
+  top: 70%;
+  left: 80%;
+  height:38%;
+  transform:rotate(30deg);
+}
+.gallery-images3{
+    position: absolute;
+  top: 72%;
+  left: -2%;
+  height:38%;
+  transform:rotate(-30deg) scaleX(-1);
 }
 
     body, input, textarea, select {
