@@ -45,17 +45,16 @@
     width: 70%;
 }
 
-.flowerRight {
+.flowerDecal {
     transform: rotate(70deg);
+    width: 15%;
+    transform: rotate(360deg);
 }
 
-.flowerLeft {
-    transform: scale(-1,1) rotate(70deg);
-    ;
-    -webkit-transform: scale(-1,1) rotate(70deg);
-    -moz-transform: scale(-1,1) rotate(70deg);
-    -o-transform: scale(-1,1) rotate(70deg);
-}
+
+ h2 {
+       
+    }
 
 
 
@@ -218,6 +217,7 @@ body {
     .container {
         width: 960px;
     }
+
 }
 
 @media screen and (max-width: 736px) {
@@ -1859,7 +1859,7 @@ ol.default {
         letter-spacing: -0.015em;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1, h3, h4, h5, h6 {
         margin: 0 0 0.75em 0;
     }
 
@@ -2068,7 +2068,11 @@ ol.default {
 @media screen and (max-width: 736px) {
 
     /* Basic */
-
+        .flowerDecal {
+    transform: rotate(70deg);
+    width: 40%;
+    transform: rotate(360deg);
+}
     body, input, textarea, select {
         line-height: 1.75em;
         font-size: 10pt;
@@ -2079,6 +2083,9 @@ ol.default {
         font-size: 1.25em;
         margin: 0 0 0.4em 0;
     }
+     h4.weddingDate{
+         font-size: 1.5em;
+     }
 
      h2 {
         font-size: 2em;
