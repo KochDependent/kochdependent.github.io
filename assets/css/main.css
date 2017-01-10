@@ -2154,9 +2154,9 @@ ol.default {
 }
 .gallery-images4{
     position: absolute;
-  top: 98%;
+  top: 99.5%;
   left: 90%;
-  height:12%;
+  height:11%;
   transform:rotate(30deg);
 }
 .gallery-images5{
