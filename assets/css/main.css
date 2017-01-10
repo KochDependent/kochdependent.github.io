@@ -34,7 +34,9 @@
         display: block;
     }
 }*/
-
+section{
+    position: relative;
+}
 .gallery-images{
     position: relative;
   top: 0;
